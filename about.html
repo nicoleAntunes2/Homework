@@ -4,24 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
+    
+    <!-- SEO Optimization -->
+    <title>About Nicole Antunes | Front-End Developer in Portugal</title>
+    <meta name="description" content="Nicole Antunes is a front-end developer based in Portugal. Passionate about building responsive and user-friendly web applications." />
+    <meta name="keywords" content="Nicole Antunes, Front-end Developer, Web Development, Portugal, HTML, CSS, JavaScript" />
+    <meta name="author" content="Nicole Antunes" />
+    
+    <!-- Open Graph (for social media sharing) -->
+    <meta property="og:title" content="Nicole Antunes | Front-End Developer" />
+    <meta property="og:description" content="Passionate front-end developer from Portugal specializing in modern web technologies." />
+    <meta property="og:image" content="https://yourwebsite.com/images/profile.jpg" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Bootstrap & CSS -->
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+      crossorigin="anonymous" 
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" 
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>About [NICOLE ANTUNES]</title>
   </head>
+  
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">[YOUR NAME]</a>
+        <a class="navbar-brand" href="index.html">Nicole Antunes</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,7 +52,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="about.html">About me</a>
@@ -48,32 +64,36 @@
         </div>
       </div>
     </nav>
-    <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from [PORTUGAL]</h3>
-    <div class="about-paragraphs text-center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
+
+    <!-- About Section -->
+    <section class="container mt-5 pt-5">
+      <h1 class="text-center">About Me</h1>
+      <h3 class="text-center">Front-end Developer from Portugal</h3>
+      <p class="text-center">
+        I'm Nicole Antunes, a passionate front-end developer specializing in modern web technologies.
+        I enjoy creating responsive, user-friendly websites and applications.
       </p>
-    </div>
-    <div class="container">
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="container mt-5">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/yoga.png" class="img-fluid p-2 shadow rounded" />
+          <img src="images/yoga.png" alt="Yoga App" class="img-fluid p-2 shadow rounded" />
         </div>
         <div class="col-sm-4">
-          <img src="images/weather.png" class="img-fluid p-2 shadow rounded" />
+          <img src="images/weather.png" alt="Weather App" class="img-fluid p-2 shadow rounded" />
         </div>
         <div class="col-sm-4">
-          <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded" />
+          <img src="images/yogurt.png" alt="Yogurt App" class="img-fluid p-2 shadow rounded" />
         </div>
       </div>
-    </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:[nicoleantunes98@gmail.com]" class="email-link"> [YOUR EMAIL] </a>
-    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-center mt-5">
+      <h2>📮 Contact Me</h2>
+      <a href="mailto:nicoleantunes98@gmail.com" class="email-link">nicoleantunes98@gmail.com</a>
+    </section>
   </body>
 </html>
